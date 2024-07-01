@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.display-message{
+  text-align: center;
+  margin-top: 50px;
+  color: #007bff;
+}
+h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+.upload-div {
+  width: 40%;
+  min-width: 400px;
+  margin: auto;
+}
+/* card */
+.card-div {
+  width: 100%;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+.card-custom {
+  width: 22%;
+  margin: 10px 0;
+}
+@media only screen and (max-width: 1200px) {
+  .card-custom {
+    width: 30%;
+  }
+  .card-div {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .card-custom {
+    width: 40%;
+  }
+  .card-div {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card-custom {
+    width: 60%;
+  }
+  .card-div {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 453px) {
+  .card-custom {
+    width: 70%;
+  }
+  .card-div {
+    justify-content: center;
+  }
+}
+.card-custom img {
+  max-width: 100%;
+}
+.image-custom {
+  width: 100%;
+  height: 200px;
+}
+.buttons-div {
+  padding-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+/* search component */
+.search-div {
+  width: 40%;
+  min-width: 300px;
+  float: right;
+}
+
+/* UploadForm Component */
+.upload-form-div {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.label-input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-control,
+.form-control-file {
+  width: 100%;
+}
+
+.btn-upload {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-upload:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* home */
+.home-btn-div{
+display: flex;
+gap: 20px;
+}
+.btn-search-div{
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .btn-search-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-div{
+    margin-top: 40px;
+  }
+}
